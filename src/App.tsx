@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { animeList } from './data.tsx';
-
+import './App.css';
 export default function Gallery() {
   const [index, setIndex] = useState(0);
   const [showMore, setShowMore] = useState(false);
